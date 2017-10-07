@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+  <!-- CDNs and File Links -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="weatherapp.css">
+  <title>drewcodes.io - Weather App v2</title>
+</head>
+<body>
+
+<div class="outer-container">
+  <div class="app text-center">
+    <h1 id="city">Weather is Loading...</h1>
+    <h3 id="date"></h3>
+    <div class="weather-details">
+      <span id="image"></span>
+      <h1 id="temp">--</h1>
+      <button id="tempToggle" class="btn btn-primary">&#176; f / &#176; c</button>
+        <p id='humidity'></p>
+        <p id='windSpeed'></p>
+        <p id='tempHigh'></p>
+        <p id='tempLow'></p>
+    </div><!--weather-details-->
+  </div><!--app-->
+  <footer class="text-center">Code by <a href="http://www.drewcodes.io" target="_blank">Andrew Kao</a>.</footer>
+</div><!--outer-container-->
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="weatherapp.js"></script>
+
+</body>
+</html>

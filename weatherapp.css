@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(236, 233, 219);
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  text-shadow: 0px 0px 10px #000;
+  font-size: 20px;
+}
+
+.outer-container {
+    margin: 10px;
+}
+
+.app {
+  background-color: rgb(158, 172, 139);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  max-width: 600px;
+  border-radius: 10px;
+  border: 5px solid white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tempToggle {
+  margin: 10px;
+  background-color: rgb(178, 184, 164);
+  border: 1px solid #fff;
+}
+
+#image {
+    height: 450px;
+}
+
+.weather-details {
+  margin: 50px;
+  background-color: rgba(154, 154, 154, 0.8);
+  box-shadow: 10px 10px 15px #000;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#temp {
+  font-size: 60px;
+}
+
+footer {
+  margin: 15px;
+}
+
+a, a:active, a:hover, a::selection, a:focus {
+  color: white;
+  text-decoration: none;
+}
